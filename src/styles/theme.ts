@@ -26,6 +26,14 @@ export const theme = {
         fontSize: "18px",
         lineHeight: "25px",
       },
+      mode3: {
+        fontSize: "21px",
+        lineHeight: "30px",
+      },
+      mode4: {
+        fontSize: "24px",
+        lineHeight: "28px",
+      },
     },
     colors: {
       white: "#fff",
@@ -33,6 +41,7 @@ export const theme = {
       black: "#000",
 
       gray: "#333333",
+      grayPallete1: "#D6D6D6",
 
       trasparent: "rgba(0, 0, 0, 0)",
     },

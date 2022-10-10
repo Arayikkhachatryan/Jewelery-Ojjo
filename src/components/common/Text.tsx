@@ -24,6 +24,16 @@ const Text = styled.p<TextProps>`
           font-size: ${props.theme.typography.texts.mode2.fontSize};
           line-height: ${props.theme.typography.texts.mode2.lineHeight};
         `;
+      case "mode3":
+        return css`
+          font-size: ${props.theme.typography.texts.mode3.fontSize};
+          line-height: ${props.theme.typography.texts.mode3.lineHeight};
+        `;
+      case "mode4":
+        return css`
+          font-size: ${props.theme.typography.texts.mode4.fontSize};
+          line-height: ${props.theme.typography.texts.mode4.lineHeight};
+        `;
       default:
         return css`
           font-size: ${props.theme.typography.texts.default.fontSize};
