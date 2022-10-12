@@ -49,6 +49,26 @@ export const SectionHomeWrapper = styled.section`
         }
       }
     }
+    &-black {
+      > div {
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+        width: 1150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0 20px;
+        > button {
+          padding: 15px 35px;
+        }
+        > p {
+          color: ${({ theme }) => theme.typography.colors.white};
+          padding-bottom: 45px;
+        }
+      }
+    }
   }
 `;
 
@@ -61,6 +81,7 @@ export const SectionCategoriesWrapper = styled.section`
   margin: 0 auto;
   .categories {
     &-title {
+      width: 100%;
       padding-top: 100px;
       padding-bottom: 60px;
       > p {

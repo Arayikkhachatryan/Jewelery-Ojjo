@@ -1,3 +1,4 @@
+import BlackSection from "components/common/BlackSection";
 import Button from "components/common/Button";
 import Text from "components/common/Text";
 import Title from "components/common/Title";
@@ -90,6 +91,23 @@ const SectionHome = () => {
           </div>
         </div>
       </SectionCategoriesWrapper>
+      <BlackSection>
+        <div>
+          <Text type="mode3">Don't know what to choose?</Text>
+          <Title fw={700}>Visit our showrooms</Title>
+          <Text type="mode2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut duis
+            tortor vitae pellentesque egestas quam pulvinar. Pellentesque
+            porttitor velit sit pellentesque. Suspendisse donec pretium id
+            dignissim. Dignissim ultrices eget orci viverra. Egestas quis et ut
+            ultrices imperdiet lectus nulla tempus. Pharetra lorem sem purus
+            nisi libero viverra ipsum.
+          </Text>
+          <Button mode="mode1">
+            <Text>Our Showrooms</Text>
+          </Button>
+        </div>
+      </BlackSection>
     </SectionHomeWrapper>
   );
 };
